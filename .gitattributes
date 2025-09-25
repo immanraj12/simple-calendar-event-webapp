@@ -1,0 +1,9 @@
+# Enforce LF for all text files
+* text=auto eol=lf
+
+# Optional: keep Windows scripts in CRLF
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Ignore node_modules normalization
+node_modules/* -text
